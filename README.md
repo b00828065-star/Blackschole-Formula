@@ -59,3 +59,15 @@ The option price is estimated as:
 Price=(e^−rT)*E[Payof f]
 
 where the expectation is approximated using simulated paths.
+
+
+## Key Skills Demonstrated
+
+- Python
+- Quantitative Finance
+- Stochastic Processes
+- Risk-Neutral Valuation
+- Monte Carlo Simulation
+- Black-Scholes Model
+- Scientific Computing
+
