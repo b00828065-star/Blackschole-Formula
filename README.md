@@ -14,10 +14,10 @@ The objective is to compare a closed-form pricing solution with a numerical simu
 
 This project was developed as a personal learning initiative to strengthen my understanding of:
 
-Derivative pricing
-Brownian motion
-Risk-neutral valuation
-Quantitative finance programming in Python
+- Derivative pricing
+- Brownian motion
+- Risk-neutral valuation
+- Quantitative finance programming in Python
 
 
 # Financial modelling
@@ -27,19 +27,19 @@ The Black-Scholes model provides a closed form solution for pricing European opt
 
 The model assumes that the underlying asset follows a Geometric Brownian Motion:
 
-dSt=μStdt+σStdWt
+dSt=μ*St*dt+σ*St*dWt
 
 Under the risk-neutral measure:
 
-dSt=rStdt+σStdWt​
+dSt=r*St*dt+σ*St*dWt​
 
 The call option price is given by:
 
-C=S0*N(d1)−Ke−rTN(d2)
+C=S0*N(d1)−K*(e^−rT)*N(d2)
 
 where:
 
-d1=(ln⁡(S0/K)+((r+σ^2)/2)T)σ*T^0.5 
+d1=(ln⁡(S0/K)+(r+σ^2/2)*T)/σ*T^0.5 
 
 d2=d1−σ*T^0.5​
 
@@ -48,7 +48,7 @@ d2=d1−σ*T^0.5​
 
 Instead of using a closed-form formula, Monte Carlo simulation generates thousands of possible future asset prices:
 
-ST=S0exp⁡(((r−σ^2)/2)T+σ*(T^0.5)*Z)
+ST=S0*exp⁡((r−σ^2/2)*T+σ*(T^0.5)*Z)
 
 with:
 
