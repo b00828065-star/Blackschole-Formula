@@ -35,7 +35,7 @@ dSt=r*St*dt+σ*St*dWt​
 
 The call option price is given by:
 
-C=S0*N(d1)−K*(e^−rT)*N(d2)
+C=N(d1)*S0−K*(e^−rT)*N(d2)
 
 where:
 
