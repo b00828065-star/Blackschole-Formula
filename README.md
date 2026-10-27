@@ -1,16 +1,21 @@
-# Black-Scholes Formula
+# Black-Scholes & Monte Carlo Option Pricing
 
 Calculate European call and put prices with the Black-Scholes formula and a
 Monte Carlo simulation.
 
-## Run
+## Overview
 
-From the project directory, run:
+This project implements two fundamental option pricing techniques used in quantitative finance:
 
-```sh
-python3 main.py
-```
+Black-Scholes analytical model
+Monte Carlo simulation under the Black-Scholes framework
 
-The project uses only the Python standard library. Monte Carlo prices are
-estimates and can differ slightly from the Black-Scholes prices; the fixed
-seed in `main.py` makes the displayed estimates reproducible.
+The objective is to compare a closed-form pricing solution with a numerical simulation approach and better understand the probabilistic foundations of option pricing.
+
+This project was developed as a personal learning initiative to strengthen my understanding of:
+
+Derivative pricing
+Stochastic processes
+Brownian motion
+Risk-neutral valuation
+Quantitative finance programming in Python
